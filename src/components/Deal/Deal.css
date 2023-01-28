@@ -1,0 +1,91 @@
+.Deal {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Deal-container {
+    width: 80%;
+    min-height: 50vh;
+    background: #F7F7F7;
+    border-radius: 500px 0px 0px 500px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    -webkit-border-radius: 500px 0px 0px 500px;
+    -moz-border-radius: 500px 0px 0px 500px;
+    -ms-border-radius: 500px 0px 0px 500px;
+    -o-border-radius: 500px 0px 0px 500px;
+}
+
+.Deal-image-container {
+    height: calc(250px + 25vh);
+    width: calc(250px + 25vh);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 0px 34px 4px rgba(86, 86, 86, 0.1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Deal-content-container {
+    height: 100%;
+    margin-left: 100px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Deal-headline {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    background: #8096BC;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+.Deal-price {
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: #3A3A3A;
+}
+
+.Deal-price-value {
+    color: #78A2CA;
+}
+
+.Deal-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #727272;
+}
