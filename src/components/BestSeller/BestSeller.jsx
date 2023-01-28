@@ -1,13 +1,13 @@
 import "./BestSeller.css"
 
 import ItemCard from "../ItemCard/ItemCard"
-import BestSellerImage1 from "./images/1.png"
-import BestSellerImage2 from "./images/2.png"
-import BestSellerImage3 from "./images/3.png"
-import BestSellerImage4 from "./images/4.png"
-import BestSellerImage5 from "./images/5.png"
-import BestSellerImage6 from "./images/6.png"
-import BestSellerImage7 from "./images/7.png"
+import BestSellerImage1 from "./images/1.webp"
+import BestSellerImage2 from "./images/2.webp"
+import BestSellerImage3 from "./images/3.webp"
+import BestSellerImage4 from "./images/4.webp"
+import BestSellerImage5 from "./images/5.webp"
+import BestSellerImage6 from "./images/6.webp"
+import BestSellerImage7 from "./images/7.webp"
 
 function BestSeller(){
     return(

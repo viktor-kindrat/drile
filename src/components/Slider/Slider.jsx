@@ -1,7 +1,7 @@
 import "./Slider.css"
 import nextBtnImage from "./images/next.svg"
 import previousBtnImage from "./images/previous.svg"
-import sliderImage from "../images/slider/1.jpg"
+import sliderImage from "../images/slider/1.webp"
 
 import ActionBtn from "../ActionBtn/ActionBtn"
 

@@ -1,5 +1,5 @@
 import "./Deal.css"
-import dealImage from "../images/DealImage.png"
+import dealImage from "../images/DealImage.webp"
 import ActionBtn from "../ActionBtn/ActionBtn"
 
 function Deal() {
