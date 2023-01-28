@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+.Logo {
+    display: block;
+    font-family: 'Potta One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(25px + 1vw);
+    line-height: 65px;
+    letter-spacing: -0.035em;
+    color: #424346;
+    user-select: none;
+    pointer-events: none;
+}

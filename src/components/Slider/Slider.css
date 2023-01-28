@@ -1,0 +1,92 @@
+.Slider {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 75px;
+    position: relative;
+}
+
+.Slider::after {
+    content: "";
+    display: block;
+    width: 895px;
+    height: 497px;
+    background: #EEEEEE;
+    position: absolute;
+    right: 0;
+    bottom: -150px;
+    z-index: 0;
+}
+
+.Slider-button {
+    height: 53px;
+    background: transparent;
+    border: none;
+    z-index: 1;
+}
+
+.Slider-items-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+    z-index: 1;
+}
+
+.Slider-item {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Slider-image {
+    height: calc(350px + 1vw);
+    width: 50%;
+    object-fit: cover;
+}
+
+.Slider-column {
+    width: 40%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.Slider-headline {
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(25px + 1.5vw);
+    line-height: 60px;
+    /* or 120% */
+    letter-spacing: 0.02em;
+    color: #3A3A3A;
+    text-align: left;
+    text-align: left;
+}
+
+.Slider-action-btn {
+    padding: 10px 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    background: #434343;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

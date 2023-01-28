@@ -1,0 +1,97 @@
+.ItemCard {
+    height: 300px;
+    width: 255px;
+    padding: 25px;
+    margin: 10px;
+    background: #FFFFFF;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.ItemCard-img {
+    height: 150px;
+    object-fit: contain;
+}
+
+.ItemCard-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ItemCard-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #2A2A2B;
+}
+
+.ItemCard-price {
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    /* or 357% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #8C8C8C;
+}
+
+.ItemCard[data-hot="true"]::after {
+    content: "Hot";
+    width: 75px;
+    top: 5px;
+    right: 0;
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    background: #F29731;
+    padding: 5px 15px;
+}
+
+.ItemCard[data-discount]::before {
+    content: attr(data-discount);
+    position: absolute;
+    width: 75px;
+    right: 0;
+    top: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    background: #9E0B0F;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
