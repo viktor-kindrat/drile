@@ -1,0 +1,47 @@
+[{
+        "name": "Metal Vintage Pendant",
+        "price": "$79.00",
+        "discount": "-5%",
+        "hot": true,
+        "image": "./images/1.webp"
+    },
+    {
+        "name": "Klosh Table Clock",
+        "price": "$99.00",
+        "hot": false,
+        "image": "./images/2.webp"
+    },
+    {
+        "name": "Arne Dining Chair",
+        "price": "$350.00",
+        "hot": false,
+        "image": "./images/3.webp"
+    },
+    {
+        "name": "Klosh Wall Clock",
+        "price": "$80.00 – $129.00",
+        "discount": "-5%",
+        "hot": true,
+        "image": "./images/4.webp"
+    },
+    {
+        "name": "Modern Outdoor Chair",
+        "price": "$79.00",
+        "discount": "-20%",
+        "hot": true,
+        "image": "./images/5.webp"
+    },
+    {
+        "name": "Vipp Wool Pillow",
+        "price": "$99.00",
+        "hot": false,
+        "image": "./images/6.webp"
+    },
+    {
+        "name": "Modern Bedroom Storage",
+        "price": "$499.00",
+        "discount": "-17%",
+        "hot": true,
+        "image": "./images/7.webp"
+    }
+]
