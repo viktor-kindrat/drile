@@ -1,0 +1,16 @@
+.DealCard {
+    background: #ffffff;
+    height: 87px;
+    width: 87px;
+    overflow: hidden;
+    border: 1px solid #0000003e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DealCard-img {
+    height: 80%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}

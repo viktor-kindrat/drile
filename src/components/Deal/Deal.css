@@ -89,3 +89,11 @@
     text-align: left;
     color: #727272;
 }
+
+.Deal-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}

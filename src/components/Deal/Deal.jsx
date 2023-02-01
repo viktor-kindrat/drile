@@ -1,6 +1,9 @@
 import "./Deal.css"
 import dealImage from "../images/DealImage.webp"
 import ActionBtn from "../ActionBtn/ActionBtn"
+import DealCard from "../DealCard/DealCard"
+
+import data from "../../data/items.json"
 
 function Deal() {
     return (
@@ -16,6 +19,13 @@ function Deal() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.
                     </p>
                     <ActionBtn content="Shop now"/>
+                    <div className="Deal-card-container">
+                        {
+                            data.map(item => 
+                                (item.hot === true) ? <DealCard image={item.image}/> : ''
+                            )
+                        }
+                    </div>
                 </div>
             </div>
         </div>
