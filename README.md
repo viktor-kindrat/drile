@@ -21,6 +21,7 @@
   </center>
 
 </div>
+
 ---
 ###### Linked in: https://www.linkedin.com/in/viktor-kindrat/
 ---
