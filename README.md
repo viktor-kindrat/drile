@@ -1,31 +1,53 @@
-# Drile project (currently in development)
+<h1>Drile project (currently in development)</h1>
 
 ---
 
-![image](https://user-images.githubusercontent.com/84918090/215870980-e3732874-374a-4b09-aad3-0d8656347b37.png)
 
-## Figma to React ![image](https://user-images.githubusercontent.com/84918090/215870721-9bf4c6f8-d862-4ac7-9294-863f7857059b.png) project. Static page written on React framework
 
-#### Used techniques:
-- props
-- react components
 
-<div>
-  <center>
-    <h3>Current desktop speedtest results:</h3> 
-    <img src="https://user-images.githubusercontent.com/84918090/215290326-18159b20-5b7f-4954-927a-4ed42f659d66.png" alt="image">
-  </center>
-  <center>
-    <h3>Current phone speedtest results:</h3>
-    <img src="https://user-images.githubusercontent.com/84918090/215290385-684bd475-4bb3-479d-8536-373ef0aa5042.png" alt="image">
-  </center>
 
-</div>
+<table border="0">
+    <tr>
+        <td>
+            <img src="https://user-images.githubusercontent.com/84918090/215870980-e3732874-374a-4b09-aad3-0d8656347b37.png" alt="image">
+        </td>
+        <td>
+            <h2>
+                <span>Figma to React <img src="https://user-images.githubusercontent.com/84918090/215870721-9bf4c6f8-d862-4ac7-9294-863f7857059b.png" alt="image"> project. Static page written on React framework</span>
+            </h2>
+            <hr>
+            <h3>Used techniques:</h3>
+            <ul>
+                <li>Props</li>
+                <li>React components</li>
+                <li>JSON file</li>
+                <li>JavaScript map method</li>
+            </ul>
+        </td>
+    </tr>
+</table>
 
----
-###### Linked in: https://www.linkedin.com/in/viktor-kindrat/
----
-###### Github: https://github.com/victor-kindrat
----
-###### Instagram: https://instagram.com/victor_kindrat?utm_medium=copy_link
----
+<table border="0">
+    <tr>
+        <td>
+            <div>
+                <h3>Current desktop speedtest results:</h3>
+                <img src="https://user-images.githubusercontent.com/84918090/215290326-18159b20-5b7f-4954-927a-4ed42f659d66.png" alt="image">
+            </div>
+        </td>
+        <td>
+            <div>
+                <h3>Current phone speedtest results:</h3>
+                <img src="https://user-images.githubusercontent.com/84918090/215290385-684bd475-4bb3-479d-8536-373ef0aa5042.png" alt="image">
+            </div>
+        </td>
+    </tr>
+</table>
+
+<hr>
+
+<cite>
+  <a href="https://www.linkedin.com/in/viktor-kindrat/">LinkedIn</a> <br>
+  <a href="https://github.com/viktor-kindrat ">Github</a> <br>
+  <a href="https://instagram.com/victor_kindrat?utm_medium=copy_link">Instagram</a>
+</cite>
