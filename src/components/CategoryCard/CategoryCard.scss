@@ -7,7 +7,14 @@
     justify-content: center;
     text-align: center;
     overflow: hidden;
+    padding: 15px;
     gap: 10px;
+    cursor: pointer;
+    transition: backgrouund 0.4s;
+    -webkit-transition: backgrouund 0.4s;
+    -moz-transition: backgrouund 0.4s;
+    -ms-transition: backgrouund 0.4s;
+    -o-transition: backgrouund 0.4s;
     .CategoryCard-image {
         height: 75px;
         width: auto;
@@ -24,5 +31,8 @@
         letter-spacing: -0.035em;
         color: #757575;
         text-transform: uppercase;
+    }
+    &:hover {
+        background: #FBF9F3;
     }
 }

@@ -35,14 +35,18 @@
             }
         }
         .TrendiongCtg-container {
+            max-width: 90vw;
+            overflow: hidden;
             display: flex;
             gap: 15px;
             align-items: center;
             justify-content: center;
+            border: 1px solid #E2E0DB;
         }
     }
     .TrendiongCtg-cards {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         gap: 30px;
