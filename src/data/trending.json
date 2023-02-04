@@ -1,0 +1,21 @@
+[{
+        "name": "Vasagle Vanity Table",
+        "price": "$1,200.00",
+        "image": "./trendingGoods/1.webp"
+    },
+    {
+        "name": "Adkins Dressing Table",
+        "price": "$899.00",
+        "image": "./trendingGoods/2.webp"
+    },
+    {
+        "name": "Hironpal Dressing Table",
+        "price": "$350.00",
+        "image": "./trendingGoods/3.webp"
+    },
+    {
+        "name": "Deco Dressing Table",
+        "price": "$800.00",
+        "image": "./trendingGoods/4.webp"
+    }
+]

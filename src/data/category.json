@@ -1,0 +1,25 @@
+[{
+        "name": "DRESSING TABLE",
+        "image": "./trendingCtg/table.webp"
+    },
+    {
+        "name": "LAMP",
+        "image": "./trendingCtg/lamp.webp"
+    },
+    {
+        "name": "CABINET",
+        "image": "./trendingCtg/cabinet.webp"
+    },
+    {
+        "name": "SOFA",
+        "image": "./trendingCtg/sofa.webp"
+    },
+    {
+        "name": "CHAIR",
+        "image": "./trendingCtg/chair.webp"
+    },
+    {
+        "name": "BAD",
+        "image": "./trendingCtg/bad.webp"
+    }
+]
