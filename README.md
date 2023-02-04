@@ -1,11 +1,5 @@
 <h1>Drile project (currently in development)</h1>
 
----
-
-
-
-
-
 <table border="0">
     <tr>
         <td>
@@ -15,7 +9,6 @@
             <h2>
                 <span>Figma to React <img src="https://user-images.githubusercontent.com/84918090/215870721-9bf4c6f8-d862-4ac7-9294-863f7857059b.png" alt="image"> project. Static page written on React framework</span>
             </h2>
-            <hr>
             <h3>Used techniques:</h3>
             <ul>
                 <li>Props</li>
