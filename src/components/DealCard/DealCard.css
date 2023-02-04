@@ -14,3 +14,13 @@
     aspect-ratio: 1/1;
     object-fit: contain;
 }
+
+@media screen and (max-width:950px) {
+    .DealCard-img {
+        height: 90%;
+    }
+    .DealCard {
+        height: 45px;
+        width: 45px;
+    }
+}

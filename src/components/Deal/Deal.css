@@ -97,3 +97,60 @@
     justify-content: flex-start;
     gap: 25px;
 }
+
+@media screen and (max-width: 950px) {
+    .Deal-content-container {
+        margin-left: 25px;
+    }
+    .Deal-container {
+        width: 99%;
+        padding: 25px;
+    }
+    .Deal-image-container {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+    }
+    .Deal-image-container img {
+        width: 80%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Deal {
+        padding: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+    .Deal-container {
+        flex-direction: column;
+        border-radius: 500px 500px 0 0;
+        -webkit-border-radius: 500px 500px 0 0;
+        -moz-border-radius: 500px 500px 0 0;
+        -ms-border-radius: 500px 500px 0 0;
+        -o-border-radius: 500px 500px 0 0;
+    }
+    .Deal-image-container {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+        flex-shrink: 0;
+    }
+    .Deal-image-container img {
+        width: 80%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+    .Deal-content-container {
+        margin-left: 0;
+        margin-top: 25px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .Deal-text {
+        text-align: center;
+    }
+}

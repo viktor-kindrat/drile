@@ -23,3 +23,9 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 950px) {
+    .BestSeller-container {
+        padding: 0 25px;
+    }
+}

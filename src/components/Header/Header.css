@@ -1,5 +1,5 @@
 .Header {
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,4 +88,16 @@
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+@media screen and (max-width: 950px) {
+    .Header {
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Header-menu {
+        display: none;
+    }
 }
