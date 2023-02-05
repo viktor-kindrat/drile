@@ -17,30 +17,30 @@ function Footer () {
             <div className="Footer-row">
                 <div className="Footer-column">
                     <h2 className="Footer-headline">About us</h2>
-                    <a href="https://google.com" target="_blank" className="Footer-link">About Us</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link">Contact Us</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link">Privacy Policy</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link">Terms of Service</a>
+                    <div className="Footer-link">About Us</div>
+                    <div className="Footer-link">Contact Us</div>
+                    <div className="Footer-link">Privacy Policy</div>
+                    <div className="Footer-link">Terms of Service</div>
                 </div>
                 <div className="Footer-column">
                     <h2 className="Footer-headline">COMPANY</h2>
-                    <a href="https://google.com" target="_blank" className="Footer-link">About Us</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link">Contact Us</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link">Privacy Policy</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link">Terms of Service</a>
+                    <div className="Footer-link">About Us</div>
+                    <div className="Footer-link">Contact Us</div>
+                    <div className="Footer-link">Privacy Policy</div>
+                    <div className="Footer-link">Terms of Service</div>
                 </div>
                 <div className="Footer-column">
                     <h2 className="Footer-headline">USEFUL LINKS</h2>
-                    <a href="https://google.com" target="_blank" className="Footer-link">About Us</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link">Contact Us</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link">Privacy Policy</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link">Terms of Service</a>
+                    <div className="Footer-link">About Us</div>
+                    <div className="Footer-link">Contact Us</div>
+                    <div className="Footer-link">Privacy Policy</div>
+                    <div className="Footer-link">Terms of Service</div>
                 </div>
                 <div className="Footer-column">
                     <h2 className="Footer-headline">FOLLOW US</h2>
-                    <a href="https://google.com" target="_blank" className="Footer-link"><img src={facebookIcon} alt="social media icon" className="Footer-icon" /> Facebook</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link"><img src={twitterIcon} alt="social media icon" className="Footer-icon" /> Twitter</a>
-                    <a href="https://google.com" target="_blank" className="Footer-link"><img src={instagramIcon} alt="social media icon" className="Footer-icon" /> Instagram</a>
+                    <div className="Footer-link"><img src={facebookIcon} alt="social media icon" className="Footer-icon" /> Facebook</div>
+                    <div className="Footer-link"><img src={twitterIcon} alt="social media icon" className="Footer-icon" /> Twitter</div>
+                    <div className="Footer-link"><img src={instagramIcon} alt="social media icon" className="Footer-icon" /> Instagram</div>
                 </div>
             </div>
             <div className="Footer-copy">© Copyright {new Date().getFullYear()} | drile | All right reserved.</div>
