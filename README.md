@@ -9,6 +9,7 @@
             <h2>
                 <span>Figma to React <img src="https://user-images.githubusercontent.com/84918090/215870721-9bf4c6f8-d862-4ac7-9294-863f7857059b.png" alt="image"> project. Static page written on React framework</span>
             </h2>
+            <a href="https://wakatime.com/badge/user/36fc7641-7da0-41a7-8648-c61da8a226f7/project/087c9db7-48df-488d-9dd9-f9bd7ec48cc2"><img src="https://wakatime.com/badge/user/36fc7641-7da0-41a7-8648-c61da8a226f7/project/087c9db7-48df-488d-9dd9-f9bd7ec48cc2.svg" alt="wakatime"></a>
             <h3>Used techniques:</h3>
             <ul>
                 <li>Props</li>
